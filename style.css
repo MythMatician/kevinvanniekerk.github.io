@@ -1,0 +1,146 @@
+body {
+    background-color: #353535;
+
+    color: #fff;
+}
+
+.navbar-brand {
+    font-family: 'DM Serif Text';
+}
+
+.navbar-nav {
+    margin-left: 80%;
+} 
+
+.nav-item a {
+    font-family: 'DM Serif Text';
+}
+
+h1 {
+    max-width: 450px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'DM Serif Text', sans-serif;
+}
+
+p, a {
+    font-family: 'Inter', sans-serif;
+}
+
+.project-container a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #fff;
+    width: fit-content;
+    padding: 10px 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.project-container a:hover {
+    background-color: #fff;
+    color: #212529;
+}
+.hero {
+    max-width: 100%;
+    height: 500px;
+    background-image: url('./img/hero2.jpg');
+    overflow: visible;
+    background-position: center;
+    background-size: fill;
+}
+
+.project-intro {
+    max-width: 450px;
+}
+
+.project-details {
+    background-color: #212529;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-details, .project-image {
+    height: 350px;
+    margin-bottom: 20px;
+}
+
+div.project-image {
+    padding: 0;
+
+}
+
+.project-1 {
+    background-image: url('./img/dadJoke.PNG');
+    background-position: center;
+    background-size: cover;
+}
+
+.project-2 {
+    background-image: url('./img/tvShow.PNG');
+    background-position: center;
+    background-size: cover;
+}
+
+.project-3 {
+    background-image: url('./img/calculatorApp.PNG');
+    background-position: center;
+    background-size: cover;
+}
+
+.project-4 {
+    background-image: url('./img/githubProject.PNG');
+    background-position: center;
+    background-size: cover;
+}
+
+.back-to-top {
+    display: flex;
+    justify-content: center;
+}
+
+.back-to-top a {
+    color: #fff;
+}
+
+#footer {
+    background-color: #212529;
+    height: 100%;
+}
+
+#footer p {
+    max-width: 100%;
+    margin: 20px 0;
+}
+
+#footer a {
+    color: #fff;
+}
+
+#footer svg {
+    margin: 20px 10px;
+}
+
+@media (max-width: 1200px) {
+    .project-details p {
+        overflow: scroll;
+    }
+}
+
+@media(max-width: 720px) {
+    .project-details {
+        height: 100%;
+        margin-bottom: 20px;
+    }
+
+    .project-image {
+        display: none;
+    }
+
+    #footer svg {
+        display: none;
+    }
+}
