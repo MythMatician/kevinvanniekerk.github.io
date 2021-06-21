@@ -126,7 +126,7 @@ div.project-image {
 
 @media (max-width: 1200px) {
     .project-details p {
-        overflow: scroll;
+        overflow-y: scroll;
     }
 }
 
