@@ -97,6 +97,12 @@ div.project-image {
     background-size: cover;
 }
 
+.project-5 {
+    background-image: url('./img/nutritionApp.PNG');
+    background-position: center;
+    background-size: cover;
+}
+
 .back-to-top {
     display: flex;
     justify-content: center;
