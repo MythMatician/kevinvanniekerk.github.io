@@ -103,6 +103,12 @@ div.project-image {
     background-size: cover;
 }
 
+.project- {
+    background-image: url('./img/weatherApp.PNG');
+    background-position: center;
+    background-size: cover;
+}
+
 .back-to-top {
     display: flex;
     justify-content: center;
