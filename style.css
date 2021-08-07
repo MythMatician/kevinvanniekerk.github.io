@@ -115,6 +115,12 @@ div.project-image {
     background-size: cover;
 }
 
+.project-8 {
+    background-image: url('./img/ipTrackerApp.PNG');
+    background-position: center;
+    background-size: cover;
+}
+
 .back-to-top {
     display: flex;
     justify-content: center;
