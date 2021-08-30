@@ -121,6 +121,12 @@ div.project-image {
     background-size: cover;
 }
 
+.project-9 {
+    background-image: url('./img/todoApp.PNG');
+    background-position: center;
+    background-size: cover;
+}
+
 .back-to-top {
     display: flex;
     justify-content: center;
